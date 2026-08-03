@@ -1,4 +1,4 @@
-# Hi there, we're Jhon & Allan! 👋
+# Hi there, we're Boben & Allan! 👋
 
 Welcome to our joint GitHub workspace. We are Computer Science students collaborating on software projects, building real-world applications, and sharpening our skills as developers.
 
