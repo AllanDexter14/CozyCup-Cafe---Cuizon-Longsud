@@ -1,35 +1,37 @@
-# Hi there, we're Boben & Allan! 👋
+# Hi there, we're Jhon & Allan! 👋
 
-Welcome to our joint GitHub workspace! We’re two developers collaborating on projects, building cool ideas, and refining our craft together. 
+Welcome to our joint GitHub workspace. We are Computer Science students collaborating on software projects, building real-world applications, and sharpening our skills as developers.
 
 ---
 
 ### 👥 Who We Are
 
-* **Boben** ([@Boben19](https://github.com/Boben19))
-* **Allan** ([@AllanDexter14](https://github.com/AllanDexter14))
+* **Jhon Grover Longsud** | [@Boben19](https://github.com/Boben19)
+* **Allan Dexter P. Cuizon** | [@AllanDexter14](https://github.com/AllanDexter14)
+
+🎓 **Education:** BS in Computer Science (3rd Year)
 
 ---
 
 ### 💻 What We Do Together
 
-* **Collaborative Development:** Building projects from concept to deployment.
-* **Problem Solving:** Tackling algorithmic challenges and structural design.
-* **Continuous Learning:** Exploring new frameworks, languages, and tools to level up our skillset.
+* **Collaborative Development:** Taking software projects from early concept to functional deployment.
+* **Problem Solving:** Working through algorithmic problems, system logic, and software architecture.
+* **Continuous Learning:** Exploring new frameworks, languages, and modern tools to keep building better software.
 
 ---
 
-### 🛠 Tech & Tools We Use
+### 🛠 Tech & Tools
 
-* **Languages:** HTML, Python, and Others
+* **Languages:** Python, HTML/CSS, and others
 * **Version Control:** Git & GitHub
-* **Tools & Platforms:** VS Code, Git Bash, and Terminal environments
+* **Tools & Environment:** VS Code, Git Bash, Terminal
 
 ---
 
-### 📬 Connect with Us
+### 📬 Profiles & Links
 
-Feel free to check out our individual repositories, open an issue, or reach out to collaborate on exciting projects!
+Feel free to check out our individual repositories, explore our projects, or connect with us:
 
-* **Boben's Profile:** [github.com/Boben19](https://github.com/Boben19)
-* **Allan's Profile:** [github.com/AllanDexter14](https://github.com/AllanDexter14)
+* **Boben's GitHub:** [github.com/Boben19](https://github.com/Boben19)
+* **Allan's GitHub:** [github.com/AllanDexter14](https://github.com/AllanDexter14)
