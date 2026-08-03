@@ -21,9 +21,9 @@ Welcome to our joint GitHub workspace! We’re two developers collaborating on p
 
 ### 🛠 Tech & Tools We Use
 
-* **Languages:** JavaScript, Python, C++
+* **Languages:** HTML, Python, and Others
 * **Version Control:** Git & GitHub
-* **Tools & Platforms:** VS Code, Linux/Terminal environments
+* **Tools & Platforms:** VS Code, Git Bash, and Terminal environments
 
 ---
 
