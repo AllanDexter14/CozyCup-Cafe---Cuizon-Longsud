@@ -37,7 +37,7 @@ Cozy Cup Cafe is a web application designed to provide a seamless browsing and o
       <img src="https://github.com/Boben19.png" width="150" style="border-radius: 50%;" alt="Jhon Grover Longsud"><br />
       <br />
       <b>Name:</b> Jhon Grover Longsud<br />
-      <b>Email:</b> [Your Email]<br /><br />
+      <b>Email:</b> jhongroverlongsud2005@gmail.com<br /><br />
       <a href="https://github.com/Boben19">
         <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/PNG/Color/Github.png" width="30" height="30" alt="GitHub">
       </a>
@@ -49,7 +49,7 @@ Cozy Cup Cafe is a web application designed to provide a seamless browsing and o
       <img src="https://github.com/AllanDexter14.png" width="150" style="border-radius: 50%;" alt="Allan Dexter P. Cuizon"><br />
       <br />
       <b>Name:</b> Allan Dexter P. Cuizon<br />
-      <b>Email:</b> [Your Email]<br /><br />
+      <b>Email:</b> 202480112@psu.palawan.edu.ph<br /><br />
       <a href="https://github.com/AllanDexter14">
         <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/PNG/Color/Github.png" width="30" height="30" alt="GitHub">
       </a>
