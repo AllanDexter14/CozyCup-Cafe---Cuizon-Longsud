@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
-    <title>CozyCup Café</title>
+    <title>CozyCup Café | PSU Main Campus</title>
 </head>
 <body>
     <header>
@@ -14,6 +14,7 @@
             </div>
             <ul>
                 <li><a href="#home">Home</a></li>
+                <li><a href="#promos">Specials</a></li>
                 <li><a href="#menu">Menu</a></li>
                 <li><a href="#about">About Us</a></li>
                 <li><a href="#contact">Contact</a></li>
@@ -22,28 +23,174 @@
     </header>
 
     <section id="home" class="hero">
-        <h1>Welcome to CozyCup Café</h1>
-        <p>TESTINGG testing new branch</p>
-        <a href="#menu" class="cta-button">Explore Menu</a>
+        <div class="hero-content">
+            <h1>Your Everyday Study & Coffee Haven</h1>
+            <p>Brewing quality coffee and serving fresh bites right here at Palawan State University.</p>
+            <a href="#menu" class="cta-button">Explore Menu</a>
+        </div>
     </section>
 
+    <!-- Special Announcements & Promos -->
+    <section id="promos" class="promos">
+        <h2>Campus Specials & Daily Deals</h2>
+        <div class="promo-grid">
+            <div class="promo-card">
+                <span class="badge">Student Discount</span>
+                <h3>10% Off Midterm Special</h3>
+                <p>Flash your PSU student ID upon ordering to enjoy a discount on all iced drinks!</p>
+            </div>
+            <div class="promo-card">
+                <span class="badge">Featured Drink</span>
+                <h3>Palawan Sea Salt Latte</h3>
+                <p>Our signature dark roast topped with locally inspired salted cream cold foam.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
     <section id="menu" class="menu">
         <h2>Our Menu</h2>
-        <!-- Add menu items here -->
+        <p class="menu-sub">Click on any item to customize your order!</p>
+
+        <div class="menu-categories">
+            <button class="cat-btn active" onclick="filterMenu('all')">All</button>
+            <button class="cat-btn" onclick="filterMenu('hot')">Hot Coffee</button>
+            <button class="cat-btn" onclick="filterMenu('iced')">Iced Drinks</button>
+            <button class="cat-btn" onclick="filterMenu('tea')">Tea</button>
+            <button class="cat-btn" onclick="filterMenu('pastries')">Pastries & Snacks</button>
+        </div>
+
+        <div class="menu-container">
+            <!-- Hot Coffee -->
+            <div class="item" data-category="hot" onclick="openCustomizer('Espresso', 90)">
+                <img src="img/espresso.jpg" alt="Espresso">
+                <div class="item-info"><h3>Espresso</h3><span>₱90</span></div>
+            </div>
+            <div class="item" data-category="hot" onclick="openCustomizer('Americano', 100)">
+                <img src="img/americano.jpg" alt="Americano">
+                <div class="item-info"><h3>Americano</h3><span>₱100</span></div>
+            </div>
+            <div class="item" data-category="hot" onclick="openCustomizer('Cappuccino', 120)">
+                <img src="img/cappuccino.jpg" alt="Cappuccino">
+                <div class="item-info"><h3>Cappuccino</h3><span>₱120</span></div>
+            </div>
+            <div class="item" data-category="hot" onclick="openCustomizer('Café Latte', 130)">
+                <img src="img/latte.jpg" alt="Café Latte">
+                <div class="item-info"><h3>Café Latte</h3><span>₱130</span></div>
+            </div>
+
+            <!-- Iced Drinks -->
+            <div class="item" data-category="iced" onclick="openCustomizer('Iced Coffee', 120)">
+                <img src="img/iced-coffee.jpg" alt="Iced Coffee">
+                <div class="item-info"><h3>Iced Coffee</h3><span>₱120</span></div>
+            </div>
+            <div class="item" data-category="iced" onclick="openCustomizer('Iced Latte', 140)">
+                <img src="img/iced-latte.jpg" alt="Iced Latte">
+                <div class="item-info"><h3>Iced Latte</h3><span>₱140</span></div>
+            </div>
+            <div class="item" data-category="iced" onclick="openCustomizer('Iced Mocha', 150)">
+                <img src="img/iced-mocha.jpg" alt="Iced Mocha">
+                <div class="item-info"><h3>Iced Mocha</h3><span>₱150</span></div>
+            </div>
+            <div class="item" data-category="iced" onclick="openCustomizer('Chocolate Frappe', 160)">
+                <img src="img/chocolate-frappe.jpg" alt="Chocolate Frappe">
+                <div class="item-info"><h3>Chocolate Frappe</h3><span>₱160</span></div>
+            </div>
+
+            <!-- Tea -->
+            <div class="item" data-category="tea" onclick="openCustomizer('Green Tea', 120)">
+                <img src="img/green-tea.jpg" alt="Green Tea">
+                <div class="item-info"><h3>Green Tea</h3><span>₱120</span></div>
+            </div>
+            <div class="item" data-category="tea" onclick="openCustomizer('Lemon Tea', 100)">
+                <img src="img/lemon-tea.jpg" alt="Lemon Tea">
+                <div class="item-info"><h3>Lemon Tea</h3><span>₱100</span></div>
+            </div>
+            <div class="item" data-category="tea" onclick="openCustomizer('Milk Tea', 130)">
+                <img src="img/milk-tea.jpg" alt="Milk Tea">
+                <div class="item-info"><h3>Milk Tea</h3><span>₱130</span></div>
+            </div>
+            <div class="item" data-category="tea" onclick="openCustomizer('Chamomile Tea', 160)">
+                <img src="img/chamomile-tea.jpg" alt="Chamomile Tea">
+                <div class="item-info"><h3>Chamomile Tea</h3><span>₱160</span></div>
+            </div>
+
+            <!-- Pastries & Snacks -->
+            <div class="item" data-category="pastries" onclick="openCustomizer('Croissant', 80)">
+                <img src="img/croissant.jpg" alt="Croissant">
+                <div class="item-info"><h3>Croissant</h3><span>₱80</span></div>
+            </div>
+            <div class="item" data-category="pastries" onclick="openCustomizer('Blueberry Muffin', 90)">
+                <img src="img/muffin.jpg" alt="Blueberry Muffin">
+                <div class="item-info"><h3>Blueberry Muffin</h3><span>₱90</span></div>
+            </div>
+            <div class="item" data-category="pastries" onclick="openCustomizer('Chocolate Chip Cookie', 60)">
+                <img src="img/cookie.jpg" alt="Chocolate Chip Cookie">
+                <div class="item-info"><h3>Chocolate Chip Cookie</h3><span>₱60</span></div>
+            </div>
+            <div class="item" data-category="pastries" onclick="openCustomizer('Ham and Cheese Sandwich', 150)">
+                <img src="img/sandwich.jpg" alt="Ham and Cheese Sandwich">
+                <div class="item-info"><h3>Ham & Cheese Sandwich</h3><span>₱150</span></div>
+            </div>
+        </div>
     </section>
 
+    <!-- Customization Modal -->
+    <div id="customizer-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-btn" onclick="closeCustomizer()">&times;</span>
+            <h3 id="modal-item-name">Item Name</h3>
+            <p id="modal-item-price">₱0</p>
+            
+            <form id="customizer-form">
+                <label>Size:</label>
+                <select id="size-option">
+                    <option value="0">Regular (12 oz)</option>
+                    <option value="20">Large (16 oz) (+₱20)</option>
+                </select>
+
+                <label>Milk Type:</label>
+                <select id="milk-option">
+                    <option value="0">Whole Milk</option>
+                    <option value="15">Oat Milk (+₱15)</option>
+                    <option value="15">Almond Milk (+₱15)</option>
+                </select>
+
+                <label>Add-ons:</label>
+                <div class="checkbox-group">
+                    <input type="checkbox" id="syrup" value="15"> <label for="syrup">Caramel Syrup (+₱15)</label><br>
+                    <input type="checkbox" id="espresso-shot" value="25"> <label for="espresso-shot">Extra Espresso Shot (+₱25)</label>
+                </div>
+
+                <div class="modal-footer">
+                    <button type="button" class="cta-button" onclick="confirmOrder()">Add to Order</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <!-- About Us Section -->
     <section id="about" class="about">
-        <h2>About Us</h2>
-        <p>Discover the story behind CozyCup Café...</p>
+        <h2>About CozyCup Café</h2>
+        <p>
+            Founded right inside the heart of <strong>Palawan State University</strong> in Puerto Princesa City, CozyCup Café started as a passion project by two CS students, Jhon and Allan. We wanted to build a warm space where students and faculty alike can recharge with quality coffee, fuel up with snacks, and catch up on group projects without breaking the bank.
+        </p>
     </section>
 
+    <!-- Contact Section -->
     <section id="contact" class="contact">
-        <h2>Contact Us</h2>
-        <p>Have questions or feedback? Reach out to us...</p>
+        <h2>Visit Us & Get in Touch</h2>
+        <div class="contact-details">
+            <p><strong>📍 Location:</strong> Palawan State University Main Campus, Tiniguiban Heights, Puerto Princesa City, Palawan</p>
+            <p><strong>🕒 Store Hours:</strong> Monday – Saturday: 7:00 AM – 7:00 PM</p>
+            <p><strong>✉️ Contact:</strong> jhongroverlongsud2005@gmail.com | 202480112@psu.palawan.edu.ph</p>
+        </div>
     </section>
 
     <footer>
-        <p>&copy; 2023 CozyCup Café. All rights reserved.</p>
+        <p>&copy; 2026 CozyCup Café. Built with ❤️ at Palawan State University.</p>
     </footer>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
