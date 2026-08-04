@@ -1,31 +1,61 @@
-# Cozy Cup Cafe
+# CozyCup Café
+
+Welcome to our joint project repository for **CozyCup Café**! We are 3rd-year Computer Science students at Palawan State University collaborating on web development projects to build functional, real-world applications and sharpen our skills as developers.
+
+---
+
+### 👥 Who We Are
+
+* **Jhon Grover Longsud** | [@Boben19](https://github.com/Boben19)
+* **Allan Dexter P. Cuizon** | [@AllanDexter14](https://github.com/AllanDexter14)
+
+🎓 **Education:** BS in Computer Science (3rd Year), Palawan State University  
+📍 **Location:** Puerto Princesa City, Palawan  
+
+---
+
+### 💻 What We Do Together
+
+* **Collaborative Development:** Taking software projects from early concept and UI wireframes to functional deployment.
+* **Problem Solving:** Working through web layout logic, responsive design, and dynamic script integration.
+* **Continuous Learning:** Exploring front-end technologies, modern styling techniques, and GitHub collaboration workflows.
+
+---
+
+### 🛠 Tech & Tools
+
+* **Languages:** HTML5, CSS3, JavaScript
+* **Version Control:** Git & GitHub
+* **Tools & Environment:** VS Code, Git Bash, Browser DevTools
+
+---
 
 ## Project Description
-Cozy Cup Cafe is a web application designed to provide a seamless browsing and ordering experience for cafe customers. Users can explore a virtual menu, customize their beverage choices, view specials, and learn more about the cafe's unique offerings in a cozy, user-friendly digital environment.
+CozyCup Café is a web application created to serve as an interactive menu and ordering concept for students and staff at Palawan State University (Puerto Princesa City). The site offers a warm, intuitive interface where visitors can check out current campus drink promos, filter through beverage and pastry categories, and customize their orders directly on the page.
 
 ---
 
 ## Features
-* **Interactive Menu:** Browse an organized selection of coffees, teas, pastries, and seasonal items.
-* **Customization Options:** Select sizes, milk preferences, and additional toppings or flavors.
-* **Responsive Design:** Optimized layout for smooth navigation across mobile, tablet, and desktop devices.
-* **Special Announcements & Promos:** Highlighted section for daily deals and featured seasonal drinks.
+* **Interactive Menu Filtering:** Dynamic category filters for Hot Coffee, Iced Drinks, Teas, and Pastries without page reloads.
+* **Order Customization Options:** Popup modal enabling users to tailor drink sizes, choose milk options, and select extra add-ons.
+* **Special Announcements & Campus Promos:** Highlighted section for student discounts, midterm specials, and featured local blends.
+* **Responsive Layout:** Clean CSS design optimized for smooth browsing across mobile phones, tablets, and desktop displays.
 
 ---
 
 ## Screen Captures
 
 ![Cozy Cup Cafe Homepage](https://via.placeholder.com/600x300?text=Homepage+Preview)
-*Homepage featuring the banner, daily specials, and welcome section.*
+*Homepage featuring the hero banner, daily student specials, and main navigation.*
 
 ![Menu Navigation](https://via.placeholder.com/600x300?text=Menu+Preview)
-*Interactive menu interface displaying food and drink categories.*
+*Interactive menu interface with category tabs for Hot Coffee, Iced Drinks, Tea, and Pastries.*
 
 ![Customization Modal](https://via.placeholder.com/600x300?text=Order+Customization+Preview)
-*Popup dialog allowing users to customize their drink selections.*
+*Customization dialog for selecting beverage sizes, milk preferences, and extra shots or syrups.*
 
 ![Contact & Location](https://via.placeholder.com/600x300?text=Contact+Page+Preview)
-*Footer and contact page displaying store hours and physical location.*
+*Campus location details for PSU Main Campus, store operating hours, and author contacts.*
 
 ---
 
@@ -59,3 +89,9 @@ Cozy Cup Cafe is a web application designed to provide a seamless browsing and o
     </td>
   </tr>
 </table>
+
+---
+
+### 📬 Project Repository
+Check out the source code and updates here:  
+👉 [CozyCup-Cafe---Cuizon-Longsud Repository](https://github.com/AllanDexter14/CozyCup-Cafe---Cuizon-Longsud)
