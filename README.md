@@ -6,7 +6,7 @@ Cozy Cup Cafe is a web application designed to provide a seamless browsing and o
 ---
 
 ## Features
-* **Interactive Menu:** Browse a organized selection of coffees, teas, pastries, and seasonal items.
+* **Interactive Menu:** Browse an organized selection of coffees, teas, pastries, and seasonal items.
 * **Customization Options:** Select sizes, milk preferences, and additional toppings or flavors.
 * **Responsive Design:** Optimized layout for smooth navigation across mobile, tablet, and desktop devices.
 * **Special Announcements & Promos:** Highlighted section for daily deals and featured seasonal drinks.
@@ -41,7 +41,7 @@ Cozy Cup Cafe is a web application designed to provide a seamless browsing and o
       <a href="https://github.com/Boben19">
         <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/PNG/Color/Github.png" width="30" height="30" alt="GitHub">
       </a>
-      <a href="https://facebook.com">
+      <a href="https://www.facebook.com/jhongroverlongsud19/">
         <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/PNG/Color/Facebook.png" width="30" height="30" alt="Facebook">
       </a>
     </td>
@@ -53,7 +53,7 @@ Cozy Cup Cafe is a web application designed to provide a seamless browsing and o
       <a href="https://github.com/AllanDexter14">
         <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/PNG/Color/Github.png" width="30" height="30" alt="GitHub">
       </a>
-      <a href="https://facebook.com">
+      <a href="https://www.facebook.com/allandexter.cuizon">
         <img src="https://raw.githubusercontent.com/gauravghongde/social-icons/master/PNG/Color/Facebook.png" width="30" height="30" alt="Facebook">
       </a>
     </td>
