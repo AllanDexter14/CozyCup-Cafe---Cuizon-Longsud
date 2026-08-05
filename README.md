@@ -1,5 +1,17 @@
 # CozyCup Café
 
+<p align="center">
+  <img src="img/logo.png" alt="CozyCup Café Logo" width="220">
+</p>
+
+<h1 align="center">☕ CozyCup Café</h1>
+
+<p align="center">
+  <b>Interactive Café Website</b><br>
+  Developed by BS Computer Science students at Palawan State University
+</p>
+
+
 Welcome to our joint project repository for **CozyCup Café**! We are 3rd-year Computer Science students at Palawan State University collaborating on web development projects to build functional, real-world applications and sharpen our skills as developers.
 
 ---
