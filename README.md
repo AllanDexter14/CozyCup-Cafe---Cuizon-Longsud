@@ -1,10 +1,8 @@
-# CozyCup Café
-
 <p align="center">
   <img src="img/logo.png" alt="CozyCup Café Logo" width="220">
 </p>
 
-<h1 align="center">☕ CozyCup Café</h1>
+<h1 align="center"> CozyCup Café</h1>
 
 <p align="center">
   <b>Interactive Café Website</b><br>
